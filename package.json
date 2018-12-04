@@ -1,0 +1,14 @@
+{
+  "name": "@ianwalter/vue-component-reset",
+  "version": "0.0.0",
+  "description": "A Vue.js component mixin that makes restoring initial state to the component simple",
+  "main": "dist/vue-component-reset.js",
+  "repository": "git@github.com:ianwalter/vue-component-reset.git",
+  "author": "Ian Walter <public@iankwalter.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "microbundle": "^0.8.3",
+    "np": "^3.0.4"
+  }
+}
