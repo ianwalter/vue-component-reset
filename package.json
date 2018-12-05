@@ -3,12 +3,41 @@
   "version": "0.0.0",
   "description": "A Vue.js component mixin that makes restoring initial state to the component simple",
   "main": "dist/vue-component-reset.js",
+  "umd:main": "dist/vue-component-reset.umd.js",
+  "module": "dist/vue-component-reset.m.js",
+  "scripts": {
+    "build": "microbundle build index.js",
+    "lint": "eslint --ext js index.js"
+  },
+  "homepage": "https://github.com/ianwalter/vue-component-reset#readme",
   "repository": "git@github.com:ianwalter/vue-component-reset.git",
-  "author": "Ian Walter <public@iankwalter.com>",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "vue",
+    "component",
+    "reset",
+    "initial",
+    "data"
+  ],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
     "microbundle": "^0.8.3",
     "np": "^3.0.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "standard"
+    ]
   }
 }

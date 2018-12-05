@@ -3,12 +3,14 @@ export default function vueComponentReset (initialData) {
     data () {
       return initialData.call(this)
     },
-    reset (prop) {
-      const data = initialData.call(this)
-      if (prop) {
-        this.set(prop, data[prop])
-      } else {
-        Object.entries().forEach(([key, value]) => this.set(key, value))
+    methods: {
+      reset (prop) {
+        const data = initialData.call(this)
+        if (prop) {
+          this.$set(this, prop, data[prop])
+        } else {
+          Object.entries().forEach(([key, val]) => this.$set(this, key, val))
+        }
       }
     }
   }
