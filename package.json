@@ -32,7 +32,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
     "microbundle": "^0.8.3",
-    "np": "^3.0.4"
+    "np": "ianwalter/np"
   },
   "eslintConfig": {
     "root": true,
