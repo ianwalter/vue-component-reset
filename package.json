@@ -7,7 +7,7 @@
   "module": "dist/vue-component-reset.m.js",
   "scripts": {
     "build": "microbundle build index.js",
-    "test": "jest",
+    "test": "yarn build && jest",
     "lint": "eslint --ext js index.js"
   },
   "homepage": "https://github.com/ianwalter/vue-component-reset#readme",
