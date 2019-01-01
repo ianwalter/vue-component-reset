@@ -6,7 +6,9 @@
   "umd:main": "dist/vue-component-reset.umd.js",
   "module": "dist/vue-component-reset.m.js",
   "scripts": {
-    "build": "microbundle build index.js",
+    "transpile": "babel index.js -o dist/transpiled.js",
+    "bundle": "microbundle build dist/transpiled.js --no-compress",
+    "build": "npm run transpile && npm run bundle",
     "test": "yarn build && jest",
     "lint": "eslint --ext js index.js"
   },
@@ -24,7 +26,15 @@
   "files": [
     "dist"
   ],
+  "dependencies": {
+    "core-js": "^2.6.1"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/runtime": "^7.2.0",
     "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.12.0",
@@ -32,13 +42,36 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
+    "jest-puppeteer": "^3.7.0",
     "microbundle": "^0.8.3",
-    "np": "^3.1.0"
+    "np": "^3.1.0",
+    "puppeteer": "^1.11.0"
   },
   "eslintConfig": {
     "root": true,
     "extends": [
       "standard"
     ]
+  },
+  "browserslist": [
+    "> 0.25%"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": false,
+          "useBuiltIns": "usage",
+          "debug": true
+        }
+      ]
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
   }
 }
