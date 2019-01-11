@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/vue-component-reset",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A Vue.js component mixin that makes restoring initial state to the component simple",
   "main": "dist/vue-component-reset.js",
   "module": "dist/vue-component-reset.m.js",
