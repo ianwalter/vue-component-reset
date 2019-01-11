@@ -2,6 +2,8 @@
 > A [Vue.js][vueUrl] component mixin that makes restoring initial state to the
 > component simple
 
+[![npm page][npmImage]][npmUrl]
+
 ## Installation
 
 ```console
@@ -35,4 +37,6 @@ Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
 Created by [Ian Walter](https://iankwalter.com)
 
 [vueUrl]: https://vuejs.org/
+[npmImage]: https://img.shields.io/npm/v/@ianwalter/vue-component-reset.svg
+[npmUrl]: https://www.npmjs.com/package/@ianwalter/vue-component-reset
 [licenseUrl]: https://github.com/ianwalter/vue-component-reset/blob/master/LICENSE

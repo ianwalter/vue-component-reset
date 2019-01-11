@@ -9,7 +9,7 @@ export default function vueComponentReset (initialData) {
         if (prop) {
           this.$set(this, prop, data[prop])
         } else {
-          Object.entries().forEach(([key, val]) => this.$set(this, key, val))
+          Object.keys(data).forEach(key => this.$set(this, key, data[key]))
         }
       }
     }
