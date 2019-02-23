@@ -24,7 +24,7 @@
     "dist"
   ],
   "devDependencies": {
-    "@ianwalter/dist": "^1.5.1",
+    "@ianwalter/dist": "^3.0.0",
     "ava": "^1.0.1",
     "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
