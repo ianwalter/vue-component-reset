@@ -6,7 +6,7 @@
   "module": "dist/vue-component-reset.m.js",
   "scripts": {
     "lint": "eslint index.js test.js",
-    "pretest": "dist --babel",
+    "pretest": "dist",
     "test": "ava"
   },
   "homepage": "https://github.com/ianwalter/vue-component-reset#readme",
