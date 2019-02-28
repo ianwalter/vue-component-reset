@@ -3,10 +3,10 @@
   "version": "2.0.1",
   "description": "A Vue.js component mixin that makes restoring initial state to the component simple",
   "main": "dist/vue-component-reset.js",
-  "module": "dist/vue-component-reset.m.js",
+  "browser": "dist/vue-component-reset.browser.js",
   "scripts": {
     "lint": "eslint index.js test.js",
-    "pretest": "dist",
+    "pretest": "dist --babel",
     "test": "ava"
   },
   "homepage": "https://github.com/ianwalter/vue-component-reset#readme",
@@ -24,6 +24,7 @@
     "dist"
   ],
   "devDependencies": {
+    "@ianwalter/babel-preset-lib": "^1.0.4",
     "@ianwalter/dist": "^3.0.0",
     "ava": "^1.0.1",
     "eslint": "^5.7.0",
@@ -34,6 +35,14 @@
     "eslint-plugin-standard": "^4.0.0",
     "np": "^4.0.2",
     "vue": "^2.5.21"
+  },
+  "browserslist": [
+    "> 0.5%"
+  ],
+  "babel": {
+    "presets": [
+      "@ianwalter/lib"
+    ]
   },
   "eslintConfig": {
     "root": true,
