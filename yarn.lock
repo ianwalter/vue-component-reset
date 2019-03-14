@@ -682,9 +682,9 @@
     rollup-plugin-node-resolve "^4.0.1"
 
 "@ianwalter/eslint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-1.0.0.tgz#d97327ca391367a0126be86ff15bc087cb9bb41d"
-  integrity sha512-P5PL5cCoD+Ogh1FP981tUgcmE/9OnkCk4oGsTnh8eIXFZ/2Ttbdnb0UTS6mopk2O3WLDPt6zr8xVt9eDtWwrDw==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-1.1.0.tgz#620a614f702c3730ba44e45fe83afb7b768a4db5"
+  integrity sha512-yT7OKtJTXIz4fITnpolXDLIlyBU4e60+xtba5+ys6VD4iCELfgCEq56SiqONMZzIgEyQrxiCCwnx0kyWeI44hg==
   dependencies:
     eslint "^5.14.1"
     eslint-config-standard "^12.0.0"
