@@ -1,6 +1,6 @@
 const { test } = require('@ianwalter/bff')
 const Vue = require('Vue')
-const vueComponentReset = require('..')
+const vueComponentReset = require('.')
 
 test('component gets reset', ({ expect }) => {
   const data = { singer: 'JMSN' }
