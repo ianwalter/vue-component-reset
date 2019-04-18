@@ -5,9 +5,9 @@
   "main": "dist/vue-component-reset.js",
   "browser": "dist/vue-component-reset.browser.js",
   "scripts": {
-    "lint": "eslint index.js test.js",
+    "lint": "eslint index.js tests.js",
     "pretest": "dist --babel",
-    "test": "ava"
+    "test": "bff"
   },
   "homepage": "https://github.com/ianwalter/vue-component-reset#readme",
   "repository": "git@github.com:ianwalter/vue-component-reset.git",
@@ -25,9 +25,9 @@
   ],
   "devDependencies": {
     "@ianwalter/babel-preset-lib": "^1.0.4",
-    "@ianwalter/dist": "^3.0.0",
+    "@ianwalter/bff": "^2.10.0",
+    "@ianwalter/dist": "^3.1.0",
     "@ianwalter/eslint-config": "^1.0.0",
-    "ava": "^1.0.1",
     "np": "^4.0.2",
     "vue": "^2.5.21"
   },

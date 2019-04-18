@@ -1,28 +1,28 @@
-import test from 'ava'
-import Vue from 'vue'
-import vueComponentReset from '.'
+const { test } = require('@ianwalter/bff')
+const Vue = require('Vue')
+const vueComponentReset = require('..')
 
-test('component gets reset', t => {
+test('component gets reset', ({ expect }) => {
   const data = { singer: 'JMSN' }
   const newSinger = 'Rostam'
   const resetMixin = vueComponentReset(() => data)
   const component = new Vue({ mixins: [resetMixin] })
-  t.is(component.$data, data)
+  expect(component.$data).toBe(data)
   component.singer = newSinger
-  t.is(component.$data.singer, newSinger)
+  expect(component.$data.singer).toBe(newSinger)
   component.reset()
-  t.is(component.$data, data)
+  expect(component.$data).toBe(data)
 })
 
-test('component property gets reset', t => {
+test('component property gets reset', ({ expect }) => {
   const data = { playlist: '3030', songs: ['3030', 'All Caps'] }
   const newData = { playlist: 'Mastermind', songs: ['3030', 'Mastermind'] }
   const resetMixin = vueComponentReset(() => data)
   const component = new Vue({ mixins: [resetMixin] })
-  t.is(component.$data, data)
+  expect(component.$data).toBe(data)
   component.playlist = newData.playlist
   component.songs = newData.songs
-  t.deepEqual(component.$data, newData)
+  expect(component.$data).toEqual(newData)
   component.reset('songs')
-  t.deepEqual(component.$data, { ...newData, songs: data.songs })
+  expect(component.$data).toEqual({ ...newData, songs: data.songs })
 })
