@@ -28,6 +28,11 @@ export default {
 }
 ```
 
+## Related
+
+* [`vuex-reset`][vuexResetUrl] - A Vuex plugin that makes restoring initial
+  state to the store simple
+
 ## License
 
 Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
@@ -39,4 +44,5 @@ Created by [Ian Walter](https://iankwalter.com)
 [vueUrl]: https://vuejs.org/
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/vue-component-reset.svg
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/vue-component-reset
+[vuexResetUrl]: https://github.com/ianwalter/vuex-reset
 [licenseUrl]: https://github.com/ianwalter/vue-component-reset/blob/master/LICENSE
