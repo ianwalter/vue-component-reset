@@ -35,7 +35,12 @@
   "browserslist": "> 2%, not dead",
   "babel": {
     "presets": [
-      "@ianwalter/lib"
+      [
+        "@ianwalter/lib",
+        {
+          "runtime": false
+        }
+      ]
     ]
   },
   "eslintConfig": {
