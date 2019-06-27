@@ -1,5 +1,5 @@
 const { test } = require('@ianwalter/bff')
-const Vue = require('Vue')
+const Vue = require('vue')
 const vueComponentReset = require('.')
 
 test('component gets reset', ({ expect }) => {
