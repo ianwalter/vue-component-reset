@@ -28,7 +28,7 @@
     "@ianwalter/dist": "^3.1.0",
     "@ianwalter/eslint-config": "^2.0.1",
     "@ianwalter/renovate-config": "^1.1.1",
-    "np": "^5.0.1",
+    "np": "^5.0.3",
     "vue": "^2.6.10"
   },
   "browserslist": "> 2%, not dead",
