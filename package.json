@@ -5,8 +5,8 @@
   "main": "dist/vue-component-reset.js",
   "browser": "dist/vue-component-reset.browser.js",
   "scripts": {
-    "lint": "eslint index.js tests.js",
-    "pretest": "dist --babel",
+    "lint": "eslint .",
+    "pretest": "dist",
     "test": "bff"
   },
   "homepage": "https://github.com/ianwalter/vue-component-reset#readme",
@@ -24,7 +24,6 @@
     "dist"
   ],
   "devDependencies": {
-    "@ianwalter/babel-preset-lib": "^2.0.2",
     "@ianwalter/bff": "^4.0.1",
     "@ianwalter/dist": "^3.1.0",
     "@ianwalter/eslint-config": "^1.1.2",
@@ -33,22 +32,15 @@
     "vue": "^2.6.10"
   },
   "browserslist": "> 2%, not dead",
-  "babel": {
-    "presets": [
-      [
-        "@ianwalter/lib",
-        {
-          "runtime": false
-        }
-      ]
-    ]
-  },
   "eslintConfig": {
     "root": true,
     "extends": [
       "@ianwalter"
     ]
   },
+  "eslintIgnore": [
+    "dist"
+  ],
   "renovate": {
     "extends": [
       "@ianwalter"
