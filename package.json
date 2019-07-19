@@ -27,7 +27,7 @@
     "@ianwalter/bff": "^6.4.0",
     "@ianwalter/dist": "^5.1.0",
     "@ianwalter/eslint-config": "^2.1.1",
-    "@ianwalter/release": "^1.1.8",
+    "@ianwalter/release": "^1.1.9",
     "@ianwalter/renovate-config": "^1.1.1",
     "vue": "^2.6.10"
   },
