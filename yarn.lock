@@ -326,13 +326,13 @@
     rollup-plugin-node-resolve "^5.2.0"
     rollup-plugin-terser "^5.1.1"
 
-"@ianwalter/eslint-config@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-2.3.0.tgz#da15465cbf37c0f8f262a856a9fa78e4bed55c9a"
-  integrity sha512-3LSsVfLUV+mbUhekD12YDjt6b0mdxbItIYkwYi131somQon4Cvw1fpO/HUK5hR8puOEnCEM1nK/1k5XbkddIwQ==
+"@ianwalter/eslint-config@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-2.4.0.tgz#73b62ca311514351140b1506c91e9f5b5dd9b918"
+  integrity sha512-uM3yDtvTPWc0OwETaXQlnt09yOcl+6yHq9jJIzaIdGI8HzKddNxutvUBxzQjgewmfjD910VA17wrQqHUsb8nkQ==
   dependencies:
     eslint "^6.2.2"
-    eslint-config-standard "^14.0.1"
+    eslint-config-standard "^14.1.0"
     eslint-plugin-html "^6.0.0"
     eslint-plugin-import "^2.18.2"
     eslint-plugin-node "^9.1.0"
@@ -1234,10 +1234,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-standard@^14.0.1:
-  version "14.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-14.0.1.tgz#375c3636fb4bd453cb95321d873de12e4eef790b"
-  integrity sha512-1RWsAKTDTZgA8bIM6PSC9aTGDAUlKqNkYNJlTZ5xYD/HYkIM6GlcefFvgcJ8xi0SWG5203rttKYX28zW+rKNOg==
+eslint-config-standard@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-14.1.0.tgz#b23da2b76fe5a2eba668374f246454e7058f15d4"
+  integrity sha512-EF6XkrrGVbvv8hL/kYa/m6vnvmUT+K82pJJc4JJVMM6+Qgqh0pnwprSxdduDLB9p/7bIxD+YV5O0wfb8lmcPbA==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
