@@ -24,7 +24,7 @@
     "dist"
   ],
   "devDependencies": {
-    "@ianwalter/bff": "^6.5.0",
+    "@ianwalter/bff": "^6.5.1",
     "@ianwalter/dist": "^5.2.0",
     "@ianwalter/eslint-config": "^3.0.0",
     "@ianwalter/release": "^3.0.5",
