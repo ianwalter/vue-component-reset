@@ -3,6 +3,7 @@
 > component simple
 
 [![npm page][npmImage]][npmUrl]
+[![CI][ciImage]][ciUrl]
 
 ## Installation
 
@@ -39,10 +40,12 @@ Hippocratic License - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Walter](https://iankwalter.com)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [vueUrl]: https://vuejs.org/
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/vue-component-reset.svg
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/vue-component-reset
+[ciImage]: https://github.com/ianwalter/vue-component-reset/workflows/CI/badge.svg
+[ciUrl]: https://github.com/ianwalter/vue-component-reset/actions
 [vuexResetUrl]: https://github.com/ianwalter/vuex-reset
 [licenseUrl]: https://github.com/ianwalter/vue-component-reset/blob/master/LICENSE
