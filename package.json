@@ -3,6 +3,7 @@
   "version": "3.0.1",
   "description": "A Vue.js component mixin that makes restoring initial state to the component simple",
   "main": "dist/vue-component-reset.js",
+  "module": "dist/vue-component-reset.browser.js",
   "browser": "dist/vue-component-reset.browser.js",
   "scripts": {
     "lint": "eslint .",
