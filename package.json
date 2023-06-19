@@ -30,7 +30,7 @@
     "@ianwalter/eslint-config": "^6.2.0",
     "@ianwalter/release": "^5.0.2",
     "@ianwalter/renovate-config": "^1.4.5",
-    "vue": "^2.6.12"
+    "vue": "^2.7.14"
   },
   "browserslist": "> 2%, not dead",
   "eslintConfig": {
